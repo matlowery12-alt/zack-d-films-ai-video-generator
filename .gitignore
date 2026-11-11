@@ -15,3 +15,8 @@ Thumbs.db
 # Node
 node_modules/
 npm-debug.log
+
+# Animatic intermediates
+out/*/animatic/_work/
+out/*/animatic/clips/
+out/*/animatic/beats.json
