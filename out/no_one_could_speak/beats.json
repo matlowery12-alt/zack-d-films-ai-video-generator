@@ -1,0 +1,174 @@
+{
+  "project_name": "no_one_could_speak",
+  "topic": "What If No One Could Speak?",
+  "aspect_ratio": "9:16",
+  "style_preset": "zackd_3d_stylized",
+  "narrator_voice": "cloned_user_voice",
+  "character_sheets_required": [
+    "man_turnaround",
+    "larynx_cross_section_turnaround",
+    "brain_language_turnaround",
+    "kid_turnaround"
+  ],
+  "character_sheet_descriptions": {
+    "man_turnaround": "Stylized 3D adult man in his 30s, short dark brown hair, light stubble, teal crew-neck t-shirt, grey jeans, white sneakers, expressive oversized eyes, smooth plasticine skin with subtle subsurface scattering.",
+    "larynx_cross_section_turnaround": "3D medical model of the human larynx, front view and top-down cutaway view showing two pearly-white vocal folds over a pink glossy airway, semi-translucent cartilage, bright interior lighting.",
+    "brain_language_turnaround": "3D medical model of a semi-translucent human brain, left hemisphere with Broca's area glowing warm orange, neural pathways as thin glowing filaments, glossy tissue shader.",
+    "kid_turnaround": "Stylized 3D girl around 8 years old, curly black hair in two puffs, yellow hoodie, denim overalls, big curious eyes, smooth plasticine skin with subtle subsurface scattering."
+  },
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "narration": "If every human on Earth suddenly lost the ability to speak... the silence wouldn't be the scariest part.",
+      "title_cn": "全世界失声",
+      "title_en": "The World Goes Silent",
+      "hook": true,
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "scene_description": "Stylized 3D man standing on a busy miniature city street, mouth wide open trying to shout, but nothing comes out; surrounding 3D pedestrians freeze clutching their throats in confusion.",
+          "camera_move": "push_in",
+          "character_refs": ["man_turnaround"],
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_1_b",
+          "type": "detail",
+          "duration_sec": 3.0,
+          "scene_description": "Extreme close-up of the man's face, eyes wide in panic, hands gripping his throat, dramatic red rim light.",
+          "camera_move": "static",
+          "character_refs": ["man_turnaround"],
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "narration": "Inside your throat, two tiny folds of muscle that normally vibrate hundreds of times a second would simply... stop.",
+      "title_cn": "声带停止",
+      "title_en": "Vocal Folds Freeze",
+      "hook": false,
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "type": "macro_cross_section",
+          "duration_sec": 3.0,
+          "scene_description": "Anatomical 3D cutaway of the man's neck revealing the larynx, the camera diving down the glossy pink airway toward the vocal folds.",
+          "camera_move": "tilt_down",
+          "character_refs": ["man_turnaround", "larynx_cross_section_turnaround"],
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_2_b",
+          "type": "macro",
+          "duration_sec": 3.0,
+          "scene_description": "Top-down macro of the two pearly-white vocal folds rapidly vibrating with blurred motion lines, then abruptly freezing still as air rushes silently past them.",
+          "camera_move": "static",
+          "character_refs": ["larynx_cross_section_turnaround"],
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "narration": "Within minutes, emergency calls go dead quiet, and air traffic control can't talk down a single plane.",
+      "title_cn": "社会瘫痪",
+      "title_en": "Chaos Begins",
+      "hook": false,
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "scene_description": "Stylized 3D emergency dispatcher at a glowing console holding a headset, a caller's sound waveform on the screen flatlining.",
+          "camera_move": "pan_right",
+          "character_refs": [],
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_3_b",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "scene_description": "Miniature 3D airport at dusk with toy-like jets stacked in circling holding patterns above a control tower, red warning lights blinking.",
+          "camera_move": "pull_out",
+          "character_refs": [],
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "narration": "But your brain wouldn't give up. The same region that builds spoken sentences also powers sign language.",
+      "title_cn": "大脑改道",
+      "title_en": "The Brain Reroutes",
+      "hook": false,
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "type": "macro_cross_section",
+          "duration_sec": 3.0,
+          "scene_description": "Semi-translucent 3D cutaway of the man's head, Broca's area on the left side of the brain glowing bright orange.",
+          "camera_move": "push_in",
+          "character_refs": ["man_turnaround", "brain_language_turnaround"],
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_4_b",
+          "type": "macro",
+          "duration_sec": 3.0,
+          "scene_description": "Glowing orange neural signals racing from Broca's area down through the spinal cord and along the arm into the man's fingers, which light up as they form a hand shape.",
+          "camera_move": "tilt_down",
+          "character_refs": ["brain_language_turnaround", "man_turnaround"],
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "narration": "And kids would adapt fastest. In the 1980s, deaf children in Nicaragua invented a brand-new sign language almost from scratch.",
+      "title_cn": "孩子发明语言",
+      "title_en": "Kids Invent Language",
+      "hook": false,
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "type": "wide",
+          "duration_sec": 3.5,
+          "scene_description": "Stylized 3D schoolyard with a group of kids, led by the girl in the yellow hoodie, animatedly signing to each other with big expressive hand shapes and laughing.",
+          "camera_move": "pan_right",
+          "character_refs": ["kid_turnaround"],
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_5_b",
+          "type": "detail",
+          "duration_sec": 3.0,
+          "scene_description": "Close-up of the girl's hands forming a sign, soft glowing trails following her fingers, warm golden key light.",
+          "camera_move": "static",
+          "character_refs": ["kid_turnaround"],
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "narration": "So humanity wouldn't stay silent for long... we'd just start talking with our hands.",
+      "title_cn": "用手说话",
+      "title_en": "Talking With Hands",
+      "hook": false,
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "type": "wide",
+          "duration_sec": 3.5,
+          "scene_description": "The man and the girl on the now-calm city street, both smiling and signing to each other while pedestrians around them sign too, bright warm studio lighting.",
+          "camera_move": "pull_out",
+          "character_refs": ["man_turnaround", "kid_turnaround"],
+          "zoom_impact": false
+        }
+      ]
+    }
+  ]
+}
